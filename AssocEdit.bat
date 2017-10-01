@@ -1,5 +1,5 @@
 @echo off
-echo.Hello %username! What file type do you wanna change the program association?
+echo.Hello %username%! What file type do you wanna change the program association?
 set /p ext=
 echo.What do you want the file type to be? (leave empty to remove file association)
 set /p filetype=
